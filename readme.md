@@ -93,6 +93,7 @@ Below is a step-by-step visual guide to using Code Craft:
 
 > **Note:**
 > - This frontend requires the backend server to be running. You can find the backend repository here: [Code Craft Backend](https://github.com/Nafiziqbal-Perdita/Code_Craft_server.git)
+> - **WebContainers are dev-time tools only.** They provide a sandboxed in-browser Node.js environment for development and preview purposes. **They do not expose any real backend or server to the internet, and will not work in deployed environments (e.g., Vercel) to simulate a real backend.**
 
 ---
 
