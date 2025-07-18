@@ -1,0 +1,292 @@
+{
+  "designSystem": {
+    "name": "Fintech Claymorphism Design System",
+    "version": "1.0.0",
+    "description": "A modern fintech mobile app design system featuring claymorphism, soft gradients, and floating elements",
+    
+    "colorPalette": {
+      "primary": {
+        "blue": "#00A8E8",
+        "lightBlue": "#4FC3F7",
+        "darkBlue": "#0288D1"
+      },
+      "secondary": {
+        "teal": "#26C6DA",
+        "mint": "#4DB6AC",
+        "aqua": "#80DEEA"
+      },
+      "neutrals": {
+        "white": "#FFFFFF",
+        "lightGray": "#F8F9FA",
+        "mediumGray": "#E9ECEF",
+        "darkGray": "#6C757D",
+        "charcoal": "#343A40"
+      },
+      "accent": {
+        "pink": "#FF6B9D",
+        "coral": "#FF8A65",
+        "yellow": "#FFD54F",
+        "green": "#81C784"
+      }
+    },
+    
+    "typography": {
+      "fontFamily": {
+        "primary": "SF Pro Display, -apple-system, system-ui, sans-serif",
+        "secondary": "Inter, Helvetica, Arial, sans-serif"
+      },
+      "fontSizes": {
+        "xs": "12px",
+        "sm": "14px",
+        "base": "16px",
+        "lg": "18px",
+        "xl": "20px",
+        "2xl": "24px",
+        "3xl": "28px",
+        "4xl": "32px",
+        "5xl": "36px"
+      },
+      "fontWeights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      },
+      "lineHeights": {
+        "tight": 1.2,
+        "normal": 1.5,
+        "relaxed": 1.6
+      }
+    },
+    
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "3xl": "64px"
+    },
+    
+    "borderRadius": {
+      "none": "0px",
+      "sm": "8px",
+      "md": "12px",
+      "lg": "16px",
+      "xl": "20px",
+      "2xl": "24px",
+      "full": "9999px"
+    },
+    
+    "shadows": {
+      "claymorphism": {
+        "light": "0 4px 20px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.06)",
+        "medium": "0 8px 32px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.08)",
+        "heavy": "0 12px 48px rgba(0, 0, 0, 0.15), 0 6px 24px rgba(0, 0, 0, 0.1)"
+      },
+      "floating": {
+        "subtle": "0 2px 12px rgba(0, 168, 232, 0.15)",
+        "prominent": "0 8px 24px rgba(0, 168, 232, 0.2)"
+      }
+    },
+    
+    "gradients": {
+      "backgrounds": {
+        "primary": "linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%)",
+        "secondary": "linear-gradient(135deg, #FFFFFF 0%, #F8F9FA 100%)",
+        "accent": "linear-gradient(135deg, #00A8E8 0%, #4FC3F7 100%)"
+      },
+      "elements": {
+        "card": "linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%)",
+        "button": "linear-gradient(135deg, #00A8E8 0%, #0288D1 100%)",
+        "floating": "linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(248, 249, 250, 0.8) 100%)"
+      }
+    },
+    
+    "components": {
+      "buttons": {
+        "primary": {
+          "backgroundColor": "linear-gradient(135deg, #00A8E8 0%, #0288D1 100%)",
+          "borderRadius": "xl",
+          "padding": "md lg",
+          "fontSize": "base",
+          "fontWeight": "semibold",
+          "color": "white",
+          "shadow": "floating.prominent",
+          "minHeight": "48px"
+        },
+        "secondary": {
+          "backgroundColor": "rgba(255, 255, 255, 0.9)",
+          "borderRadius": "xl",
+          "padding": "md lg",
+          "fontSize": "base",
+          "fontWeight": "medium",
+          "color": "charcoal",
+          "shadow": "claymorphism.light",
+          "minHeight": "48px"
+        }
+      },
+      
+      "cards": {
+        "primary": {
+          "backgroundColor": "rgba(255, 255, 255, 0.9)",
+          "borderRadius": "2xl",
+          "padding": "xl",
+          "shadow": "claymorphism.medium",
+          "backdropFilter": "blur(20px)",
+          "border": "1px solid rgba(255, 255, 255, 0.2)"
+        },
+        "floating": {
+          "backgroundColor": "rgba(255, 255, 255, 0.8)",
+          "borderRadius": "xl",
+          "padding": "lg",
+          "shadow": "floating.subtle",
+          "backdropFilter": "blur(10px)",
+          "transform": "perspective(1000px) rotateX(5deg) rotateY(-5deg)"
+        }
+      },
+      
+      "iconButtons": {
+        "style": {
+          "backgroundColor": "rgba(255, 255, 255, 0.9)",
+          "borderRadius": "lg",
+          "padding": "md",
+          "shadow": "claymorphism.light",
+          "minWidth": "56px",
+          "minHeight": "56px",
+          "display": "flex",
+          "alignItems": "center",
+          "justifyContent": "center"
+        }
+      },
+      
+      "balanceCard": {
+        "style": {
+          "backgroundColor": "linear-gradient(135deg, #00A8E8 0%, #4FC3F7 100%)",
+          "borderRadius": "2xl",
+          "padding": "xl",
+          "shadow": "floating.prominent",
+          "color": "white",
+          "position": "relative",
+          "overflow": "hidden"
+        },
+        "typography": {
+          "amount": {
+            "fontSize": "3xl",
+            "fontWeight": "bold",
+            "lineHeight": "tight"
+          },
+          "label": {
+            "fontSize": "sm",
+            "fontWeight": "medium",
+            "opacity": 0.8
+          }
+        }
+      },
+      
+      "inputFields": {
+        "style": {
+          "backgroundColor": "rgba(255, 255, 255, 0.9)",
+          "borderRadius": "xl",
+          "padding": "lg",
+          "border": "1px solid rgba(0, 0, 0, 0.1)",
+          "fontSize": "base",
+          "minHeight": "56px",
+          "shadow": "claymorphism.light"
+        },
+        "focus": {
+          "borderColor": "#00A8E8",
+          "shadow": "floating.subtle"
+        }
+      }
+    },
+    
+    "layout": {
+      "screen": {
+        "padding": "lg",
+        "backgroundColor": "linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%)",
+        "minHeight": "100vh"
+      },
+      "container": {
+        "maxWidth": "400px",
+        "margin": "0 auto",
+        "padding": "0 lg"
+      },
+      "grid": {
+        "columns": {
+          "2": "repeat(2, 1fr)",
+          "3": "repeat(3, 1fr)",
+          "4": "repeat(4, 1fr)"
+        },
+        "gap": "md"
+      }
+    },
+    
+    "animations": {
+      "transitions": {
+        "fast": "0.2s ease-in-out",
+        "normal": "0.3s ease-in-out",
+        "slow": "0.5s ease-in-out"
+      },
+      "transforms": {
+        "hover": {
+          "scale": "1.02",
+          "translateY": "-2px"
+        },
+        "press": {
+          "scale": "0.98",
+          "translateY": "1px"
+        }
+      },
+      "claymorphism": {
+        "hover": {
+          "shadow": "0 16px 56px rgba(0, 0, 0, 0.18), 0 8px 28px rgba(0, 0, 0, 0.12)",
+          "transform": "translateY(-4px)"
+        }
+      }
+    },
+    
+    "iconStyle": {
+      "size": {
+        "sm": "16px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "48px"
+      },
+      "style": {
+        "strokeWidth": "1.5px",
+        "fill": "none",
+        "stroke": "currentColor"
+      }
+    },
+    
+    "designPrinciples": {
+      "claymorphism": {
+        "description": "Soft, tactile surfaces with subtle shadows and gradients",
+        "characteristics": [
+          "Soft, rounded corners",
+          "Subtle gradients and shadows",
+          "Semi-transparent backgrounds",
+          "Floating appearance",
+          "Gentle depth perception"
+        ]
+      },
+      "colorUsage": {
+        "primary": "Use for main actions and key elements",
+        "secondary": "Use for supporting elements and backgrounds",
+        "accent": "Use sparingly for highlights and success states"
+      },
+      "spacing": {
+        "principle": "Use consistent spacing rhythm based on 8px grid",
+        "application": "Maintain generous whitespace for breathing room"
+      },
+      "accessibility": {
+        "contrast": "Ensure minimum 4.5:1 contrast ratio for text",
+        "touchTargets": "Minimum 44px touch target size",
+        "focus": "Provide clear focus indicators"
+      }
+    }
+  }
+}

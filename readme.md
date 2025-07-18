@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="public/logo.jpg" alt="Code Craft Logo" width="120" />
 </p>
@@ -7,6 +6,7 @@
 
 **Code Craft** is a next-generation, AI-powered website builder that empowers users to generate, preview, and explore modern web projects effortlessly. Built with a robust frontend stack—React, TypeScript, Vite, and Tailwind CSS—Code Craft delivers a seamless, interactive, and visually stunning user experience. The frontend communicates with an intelligent backend to transform natural language prompts into complete, ready-to-run web projects.
 
+---
 
 ## ✨ Features
 
@@ -25,24 +25,43 @@
 - **Seamless API Communication:**
   - Fast, reliable communication with the AI backend using Axios for a smooth user experience.
 
+---
+
+## 🖼️ Step-by-Step Screenshots
+
+Below is a step-by-step visual guide to using Code Craft:
+
+### 1. Home Page — Enter Your Prompt
+![Step 1: Home Page](public/screenshots/01.png)
+
+### 2. Build Progress — Project Generation
+![Step 2: Build Progress](public/screenshots/02.png)
+
+### 3. Source Code View — Explore Generated Files
+![Step 3: Source Code](public/screenshots/03.png)
+
+### 4. File Explorer — Browse Project Structure
+![Step 4: File Explorer](public/screenshots/04.png)
+
+### 5. Live Preview — See Your Website Instantly
+![Step 5: Live Preview](public/screenshots/05.png)
+
+### 6. Modify or Add Features — Request Enhancements
+![Step 6: Request Features](public/screenshots/06.png)
+
+---
 
 ## 🛠️ Tech Stack
 
-- **React 18 & TypeScript:**
-  - Modern, type-safe UI development for robust and maintainable code.
-- **Vite:**
-  - Ultra-fast development server and build tool for instant feedback and optimized production builds.
-- **Tailwind CSS:**
-  - Utility-first CSS framework for rapid, responsive, and consistent styling.
-- **@webcontainer/api:**
-  - Enables in-browser Node.js environments, allowing live project previews without leaving the browser.
-- **Monaco Editor:**
-  - Advanced code editor with syntax highlighting and rich editing features.
-- **Axios:**
-  - Promise-based HTTP client for seamless API communication.
-- **Lucide React:**
-  - Beautiful, customizable icons for a modern UI.
+- **React 18 & TypeScript:** Modern, type-safe UI development for robust and maintainable code.
+- **Vite:** Ultra-fast development server and build tool for instant feedback and optimized production builds.
+- **Tailwind CSS:** Utility-first CSS framework for rapid, responsive, and consistent styling.
+- **@webcontainer/api:** Enables in-browser Node.js environments, allowing live project previews without leaving the browser.
+- **Monaco Editor:** Advanced code editor with syntax highlighting and rich editing features.
+- **Axios:** Promise-based HTTP client for seamless API communication.
+- **Lucide React:** Beautiful, customizable icons for a modern UI.
 
+---
 
 ## 📁 Project Structure
 
@@ -53,6 +72,7 @@
 - `src/steps.ts` — XML parsing and step extraction logic
 - `src/config.ts` — API endpoint configuration
 
+---
 
 ## 🚀 Getting Started
 
@@ -74,7 +94,21 @@
 > **Note:**
 > - This frontend requires the backend server to be running. You can find the backend repository here: [Code Craft Backend](https://github.com/Nafiziqbal-Perdita/Code_Craft_server.git)
 
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+---
+
+## 🌟 Acknowledgments
+
+- Inspired by modern web development tools and frameworks.
+- Special thanks to the open-source community for their amazing contributions.
