@@ -30,7 +30,7 @@ export function Home() {
       <div className="max-w-4xl w-full relative z-10">
         <div className="text-center mb-12">
           <div className="flex justify-center mb-6">
-            <img src="/public/logo.jpg" alt="Code Craft Logo" className="w-24 h-24 rounded-full shadow-clay bg-white/80 p-2" />
+            <img src="../../public/logo.jpg" alt="Code Craft Logo" className="w-24 h-24 rounded-full shadow-clay bg-white/80 p-2" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary-blue via-accent-pink to-secondary-aqua mb-6 drop-shadow-lg">
             CODE CRAFT
